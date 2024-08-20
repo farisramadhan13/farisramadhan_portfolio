@@ -9,14 +9,22 @@ body {
 }
 
 .glass {
-  backdrop-filter: blur(10px); /* Glassmorphism effect */
-  background-color: rgba(255, 255, 255, 0.1); /* Glassmorphism background */
+  backdrop-filter: blur(6px); /* Glassmorphism effect */
+  background-color: rgba(255, 255, 255, 0.15); /* Glassmorphism background */
 }
 
 .glow-text {
-  text-shadow: 0 0 5px rgba(0, 255, 255, 0.7); /* Glow effect for text */
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.8); /* Glow effect for text */
 }
 
 .glow-card {
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Glow effect for cards */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8); /* Glow effect for cards */
+}
+
+.highlight-text {
+  color: #ff5722; /* Highlight color */
+}
+
+.accent-bg {
+  background-color: #3f51b5; /* Accent color */
 }
