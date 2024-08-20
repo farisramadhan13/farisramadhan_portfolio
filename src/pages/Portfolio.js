@@ -25,7 +25,7 @@ const Portfolio = () => {
             >
               <div className="flex flex-col items-center">
                 <category.icon className="text-6xl mb-4" />
-                <h3 className="text-2xl font-semibold">{category.name}</h3>
+                <h3 className="text-2xl text-center font-semibold">{category.name}</h3>
               </div>
             </Link>
           ))}
