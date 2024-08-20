@@ -8,7 +8,7 @@ const PortfolioDetailPage = () => {
   return (
     <div className="bg-white min-h-screen">
       <Navbar />
-      <h2 className="text-3xl font-bold m-8">Portfolio {id} in {category.replace('-', ' ').split(' ')
+      <h2 className="text-3xl text-center font-bold m-8">Portfolio {id} in {category.replace('-', ' ').split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ')}</h2>
       {/* Add detailed content for the portfolio item here */}

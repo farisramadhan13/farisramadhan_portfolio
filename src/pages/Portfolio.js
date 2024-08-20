@@ -15,7 +15,7 @@ const Portfolio = () => {
     <div className="bg-white min-h-screen">
       <Navbar />
       <main className="p-8">
-        <h2 className="text-4xl font-bold mb-6 pt-8">Portfolio Categories</h2>
+        <h2 className="text-4xl text-center font-bold mb-6 pt-8">Portfolio Categories</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map(category => (
             <Link 

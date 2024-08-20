@@ -30,7 +30,7 @@ const PortfolioCategoryPage = () => {
     <div className="bg-white min-h-screen">
       <Navbar />
       <main className='p-8'>
-        <h2 className="text-4xl font-bold mb-6 pt-8">{category.replace('-', ' ').split(' ')
+        <h2 className="text-4xl text-center font-bold mb-6 pt-8">{category.replace('-', ' ').split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ')} Portfolio</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
