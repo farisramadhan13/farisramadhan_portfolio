@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaLaptopCode, FaMobileAlt, FaChartLine, FaRobot } from 'react-icons/fa';
 import Navbar from '../components/Navbar';
 
 const categories = [
-  { name: 'Website', slug: 'website' },
-  { name: 'Mobile', slug: 'mobile' },
-  { name: 'Data Science', slug: 'data-science' },
-  { name: 'Artificial Intelligence', slug: 'artificial-intelligence' },
+  { name: 'Website', slug: 'website', icon: FaLaptopCode, color: 'bg-blue-500' },
+  { name: 'Mobile', slug: 'mobile', icon: FaMobileAlt, color: 'bg-green-500' },
+  { name: 'Data Science', slug: 'data-science', icon: FaChartLine, color: 'bg-yellow-500' },
+  { name: 'Artificial Intelligence', slug: 'artificial-intelligence', icon: FaRobot, color: 'bg-red-500' },
 ];
 
 const Portfolio = () => {
@@ -20,9 +21,10 @@ const Portfolio = () => {
             <Link 
               key={category.slug} 
               to={`/portfolio/${category.slug}`}
-              className="bg-white rounded-lg overflow-hidden shadow-lg"
+              className={`rounded-lg overflow-hidden shadow-lg ${category.color} text-white flex items-center justify-center p-6 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl`}
             >
-              <div className="p-6">
+              <div className="flex flex-col items-center">
+                <category.icon className="text-6xl mb-4" />
                 <h3 className="text-2xl font-semibold">{category.name}</h3>
               </div>
             </Link>
