@@ -4,7 +4,7 @@ import Welcome from '../components/Welcome';
 
 const Home = () => {
   return (
-    <div className="bg-dark-bg text-light-text min-h-screen">
+    <div className="bg-white min-h-screen">
       <Navbar />
       <main className="p-8">
         <Welcome />
