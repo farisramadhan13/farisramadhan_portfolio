@@ -4,4 +4,19 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #121212; /* Dark background for the entire website */
+  color: #ffffff; /* White text color */
+}
+
+.glass {
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  background-color: rgba(255, 255, 255, 0.1); /* Glassmorphism background */
+}
+
+.glow-text {
+  text-shadow: 0 0 5px rgba(0, 255, 255, 0.7); /* Glow effect for text */
+}
+
+.glow-card {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.7); /* Glow effect for cards */
 }
