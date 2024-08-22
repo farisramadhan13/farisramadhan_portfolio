@@ -14,9 +14,20 @@ export const dummyPortfolios = {
     // Other projects...
   ],
   'data-science': [
-    { id: 1, title: 'Improving Performance and Time Efficiency of Coronary Artery Disease (CAD) Classification using SVM-RFE Method in Combination of SMOTE and SVM Method', image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'The study begins with data preprocessing, including cleaning data and transforming features. SMOTE is used for oversampling to balance the dataset. SVM-RFE is applied for feature selection. An SVM model is then trained with hyperparameter tuning and evaluated using a confusion matrix.' },
+    { 
+        id: 1, 
+        title: 'Improving Performance and Time Efficiency of Coronary Artery Disease (CAD) Classification using SVM-RFE Method in Combination of SMOTE and SVM Method', 
+        image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+        description: 'The study begins with data preprocessing, including cleaning data and transforming features. SMOTE is used for oversampling to balance the dataset. SVM-RFE is applied for feature selection. An SVM model is then trained with hyperparameter tuning and evaluated using a confusion matrix.'
+    },
+    { 
+        id: 2, 
+        title: 'Projek 2', 
+        image: '', 
+        description: ''
+    }
     // Other projects...
-  ],
+],
   'artificial-intelligence': [
     { id: 1, title: 'AI Project 1', image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'Description of AI Project 1' },
     // Other projects...
