@@ -6,8 +6,16 @@ import PortfolioCard from '../components/PortfolioCard';
 
 export const dummyPortfolios = {
   website: [
-    { id: 1, title: 'Website Project 1', image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'Description of Website Project 1' },
-    // Other projects...
+    { id: 1, 
+      title: 'Website Project 1', 
+      image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+      description: 'Description of Website Project 1' 
+    },
+    { id: 2,
+      title: 'Website Project 2',
+      image: '',
+      description: 'Description 2'
+    }
   ],
   mobile: [
     { id: 1, title: 'Mobile Project 1', image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'Description of Mobile Project 1' },
