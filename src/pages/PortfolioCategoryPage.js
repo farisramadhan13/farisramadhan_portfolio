@@ -18,8 +18,11 @@ export const dummyPortfolios = {
     }
   ],
   mobile: [
-    { id: 1, title: 'Mobile Project 1', image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'Description of Mobile Project 1' },
-    // Other projects...
+    { id: 1, 
+      title: 'Mobile Project 1', 
+      image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+      description: 'Description of Mobile Project 1' 
+    },
   ],
   'data-science': [
     { 
@@ -34,11 +37,13 @@ export const dummyPortfolios = {
         image: '', 
         description: ''
     }
-    // Other projects...
-],
+  ],
   'artificial-intelligence': [
-    { id: 1, title: 'AI Project 1', image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', description: 'Description of AI Project 1' },
-    // Other projects...
+    { id: 1, 
+      title: 'AI Project 1', 
+      image: 'https://images.unsplash.com/photo-1707202282188-f8d03b2791b5?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', 
+      description: 'Description of AI Project 1' 
+    },
   ],
 };
 
